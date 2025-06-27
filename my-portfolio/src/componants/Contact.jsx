@@ -34,12 +34,12 @@ const Contact = () => {
             <div name="Contact" className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16'>
                 <h1 className='text-3xl font-bold mb-4'> Contact Me</h1>
                 <span>Please fill out the form below to contact me</span>
-                <div className='flex flex-col items-center justify-center mt-5 rounded-xl'>
+                <div className='flex flex-col items-center justify-center mt-5 '>
                     <form 
                     onSubmit={handleSubmit(onSubmit)}
                     // action="https://getform.io/f/byvkljya"
                     // method="POST"
-                    className='bg-slate-200 w-96 px-6 py-6'>
+                    className='bg-slate-200 w-96 px-6 py-6 rounded-lg'>
                         <h1 className='text-xl font-semibold mb-4'>Send Your Massage</h1>
                         <div className='flex flex-col mb-4'>
                             <lable className='block text-gray-700'>Full Name</lable>
